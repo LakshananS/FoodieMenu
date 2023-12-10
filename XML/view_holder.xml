@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cat_1"
+        android:layout_width="408dp"
+        android:layout_height="197dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153">
+
+
+        <ImageView
+            android:id="@+id/Button1"
+            android:layout_width="345dp"
+            android:layout_height="73dp"
+            android:alpha="0.7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.757"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/brawn_button5" />
+
+        <TextView
+            android:id="@+id/cat_name_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginEnd="112dp"
+            android:text="BURGERS"
+            android:textColor="#530202"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/Button1"
+            app:layout_constraintEnd_toEndOf="@+id/Button1"
+            app:layout_constraintHorizontal_bias="0.019"
+            app:layout_constraintTop_toTopOf="@+id/Button1"
+            app:layout_constraintVertical_bias="0.462" />
+
+        <ImageView
+            android:id="@+id/burgers"
+            android:layout_width="94dp"
+            android:layout_height="75dp"
+            app:layout_constraintBottom_toBottomOf="@+id/Button1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.235"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Button1"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/chicken" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
